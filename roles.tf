@@ -27,3 +27,4 @@ resource "google_project_iam_binding" "mysabinding" {
   members = [
     "serviceAccount:${google_service_account.mysa.account_id}@${var.projectId}.iam.gserviceaccount.com"
   ]
+}
