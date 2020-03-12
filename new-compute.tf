@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-resource "google_compute_instance" "default" {
+resource "google_compute_instance" "default2" {
  project = "${var.projectId}"
  zone = "us-central1-b"
  name = "tg-tf-compute-1"
