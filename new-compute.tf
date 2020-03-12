@@ -32,6 +32,6 @@ resource "google_compute_instance" "default" {
  }
 }
 
-output "instance_id" {
+output "instance_id2" {
  value = "${google_compute_instance.default.self_link}"
 }
